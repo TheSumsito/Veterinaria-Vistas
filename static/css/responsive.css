@@ -35,6 +35,10 @@
         border: 1px solid var(--blue);
         display: none;
         z-index: 1000;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
     }
     .container-menu .menu li {
         display: block;
@@ -46,7 +50,7 @@
     /* -- FOOTER -- */
     .container-footer {
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(8, 50px);
+        grid-template-rows: repeat(8, 80px);
     }
     .container-footer .logo {
         grid-column: 1/8;
@@ -612,6 +616,10 @@
         border: 1px solid var(--blue);
         display: none;
         z-index: 1000;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
     }
     .container-menu .menu li {
         display: block;
@@ -623,7 +631,7 @@
     /* -- FOOTER -- */
     .container-footer {
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(8, 50px);
+        grid-template-rows: repeat(8, 80px);
     }
     .container-footer .logo {
         grid-column: 1/8;
@@ -1163,7 +1171,6 @@
     /* --------------- MENU ----------------- */
     .container-menu {
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(1, 1fr);
     }
     .container-menu .logo {
         grid-column: 1/5;
@@ -1194,6 +1201,10 @@
         border: 1px solid var(--blue);
         display: none;
         z-index: 1000;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        right: 0px;
     }
     .container-menu .menu li {
         display: block;
@@ -1205,7 +1216,7 @@
     /* -- FOOTER -- */
     .container-footer {
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(9, 50px);
+        grid-template-rows: repeat(9, 80px);
     }
     .container-footer .logo {
         grid-column: 1/8;
@@ -1757,8 +1768,8 @@
     /* -------------------------------------- */
     /* -- FOOTER -- */
     .container-footer {
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(9, 50px);
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 80px);
     }
     .container-footer .logo {
         grid-column: 1/8;
@@ -1770,7 +1781,7 @@
         right: 0%;
     }
     .container-footer .contacto {
-        grid-column: 2/7;
+        grid-column: 1/4;
         grid-row: 4/4;
         position: relative;
         top: -20%;
@@ -1779,12 +1790,12 @@
         text-align: center;
     }
     .container-footer .horario {
-        grid-column: 2/7;
-        grid-row: 7/7;
+        grid-column: 4/7;
+        grid-row: 4/4;
         position: relative;
-        top: -40%;
-        left: 0%;
-        right: 0%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
         text-align: center;
     }
     .container-footer .contacto .titulo h1, .container-footer .horario .titulo h1 {
@@ -1951,5 +1962,32 @@
     .detalle-contacto .texto p,
     .detalle-contacto .contacto p {
         font-size: 18px;
+    }
+
+    .container-social {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(3, 100px);
+    }
+
+    .container-social .titulo {
+        grid-column: 2/8;
+    }
+
+    .container-social .ico-facebook {
+        grid-column: 2/4;
+        position: relative;
+        top: 40px;
+    }
+
+    .container-social .ico-instagram {
+        grid-column: 4/6;
+        position: relative;
+        top: 40px;
+    }
+
+    .container-social .ico-whatsapp {   
+        grid-column: 6/8;
+        position: relative;
+        top: 40px;
     }
 }

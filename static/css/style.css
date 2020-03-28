@@ -41,7 +41,8 @@ body {
     grid-column: 4/8;
     position: relative;
     top: 30px;
-    left: 100px;
+    text-align: center;
+    
 }
 
 .container-menu .menu li {

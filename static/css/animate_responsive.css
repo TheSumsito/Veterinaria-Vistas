@@ -11,6 +11,14 @@
         animation-duration: 0s;
     }
 
+    .container-experiencia #titulo,
+    .container-experiencia #texto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-marca #titulo,
+    .container-marca #texto,
     .container-marca .iconos #ico-biljac,
     .container-marca .iconos #ico-eukanuba,
     .container-marca .iconos #ico-hills,
@@ -69,6 +77,33 @@
 
     /* ------------- PLANES ------------- */
     .container-planes .imagen {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+
+    /* ------------ CONTACTO ------------- */
+    .container-contacto .formulario .nombre,
+    .container-contacto .formulario .apellido,
+    .container-contacto .formulario .mail,
+    .container-contacto .formulario .telefono,
+    .container-contacto .formulario .asunto,
+    .container-contacto .formulario .mensaje,
+    .container-contacto .formulario .boton {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .detalle-contacto .texto,
+    .detalle-contacto .contacto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-social .titulo,
+    .container-social .ico-facebook,
+    .container-social .ico-instagram,
+    .container-social .ico-whatsapp {
         -webkit-animation-durations: 0s;
         animation-duration: 0s;
     }
@@ -88,6 +123,14 @@
         animation-duration: 0s;
     }
 
+    .container-experiencia #titulo,
+    .container-experiencia #texto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-marca #titulo,
+    .container-marca #texto,
     .container-marca .iconos #ico-biljac,
     .container-marca .iconos #ico-eukanuba,
     .container-marca .iconos #ico-hills,
@@ -146,6 +189,33 @@
 
     /* ------------- PLANES ------------- */
     .container-planes .imagen {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    
+    /* ------------ CONTACTO ------------- */
+    .container-contacto .formulario .nombre,
+    .container-contacto .formulario .apellido,
+    .container-contacto .formulario .mail,
+    .container-contacto .formulario .telefono,
+    .container-contacto .formulario .asunto,
+    .container-contacto .formulario .mensaje,
+    .container-contacto .formulario .boton {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .detalle-contacto .texto,
+    .detalle-contacto .contacto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-social .titulo,
+    .container-social .ico-facebook,
+    .container-social .ico-instagram,
+    .container-social .ico-whatsapp {
         -webkit-animation-durations: 0s;
         animation-duration: 0s;
     }
@@ -167,6 +237,14 @@
         animation-duration: 0s;
     }
 
+    .container-experiencia #titulo,
+    .container-experiencia #texto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-marca #titulo,
+    .container-marca #texto,
     .container-marca .iconos #ico-biljac,
     .container-marca .iconos #ico-eukanuba,
     .container-marca .iconos #ico-hills,
@@ -225,6 +303,32 @@
 
     /* ------------- PLANES ------------- */
     .container-planes .imagen {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    /* ------------ CONTACTO ------------- */
+    .container-contacto .formulario .nombre,
+    .container-contacto .formulario .apellido,
+    .container-contacto .formulario .mail,
+    .container-contacto .formulario .telefono,
+    .container-contacto .formulario .asunto,
+    .container-contacto .formulario .mensaje,
+    .container-contacto .formulario .boton {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .detalle-contacto .texto,
+    .detalle-contacto .contacto {
+        -webkit-animation-durations: 0s;
+        animation-duration: 0s;
+    }
+
+    .container-social .titulo,
+    .container-social .ico-facebook,
+    .container-social .ico-instagram,
+    .container-social .ico-whatsapp {
         -webkit-animation-durations: 0s;
         animation-duration: 0s;
     }
